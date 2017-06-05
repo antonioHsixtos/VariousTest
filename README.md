@@ -1,7 +1,7 @@
 # VariousTest
 Pruebas con diferentes ejercicios de programacion:
 
-1. Crear una función que imprima todas las posibles diagonales de la siguiente matriz:
+1. Crear una función que imprima todas las posibles diagonales de la siguiente matriz:<br><br>
     0,1,2<br />
     3,4,5<br />
     6,7,8<br />
