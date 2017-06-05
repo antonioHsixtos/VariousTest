@@ -1,0 +1,34 @@
+{
+    "name": "jcroll/foursquare-api-client",
+    "type": "library",
+    "description": "PHP Foursquare Api Client built on Guzzle",
+    "keywords": ["foursquare", "api", "client", "swarm", "oauth"],
+    "homepage": "https://github.com/jcroll/foursquare-api-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarrett Croll",
+            "email": "jarrett.croll@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "~6",
+        "guzzlehttp/guzzle-services": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcroll\\FoursquareApiClient\\": "src/",
+            "Jcroll\\FoursquareApiClient\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    }
+}
